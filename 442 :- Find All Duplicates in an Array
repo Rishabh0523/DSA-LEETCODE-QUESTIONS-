@@ -7,7 +7,7 @@ public:
         while(i<nums.size())
         {
             if(mp[nums[i]]==0)
-            {
+            { 
                 mp[nums[i]]++;
             }
              else
