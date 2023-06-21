@@ -3,7 +3,7 @@ public:
     bool uniqueOccurrences(vector<int>& arr) {
     
          vector<int> ans;
-        int size = arr.size();
+        int size = arr.size() ;
         int i = 0;
         sort(arr.begin(),arr.end());
         while(i<size){
